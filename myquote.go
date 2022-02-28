@@ -1,11 +1,20 @@
 package myquote
 
-import (
-	"fmt"
+import "fmt"
+import "rsc.io/quote"
 
-	"rsc.io/quote"
-)
+func Hello(){
+	fmt.Println(quote.Hello())
+}
 
-func main() {
+func Glass(){
+	fmt.Println(quote.Glass())
+}
+
+func Opt(){
+	fmt.Println(quote.Opt())
+}
+
+func Go(){
 	fmt.Println(quote.Go())
 }
